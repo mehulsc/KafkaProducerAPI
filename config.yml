@@ -1,0 +1,12 @@
+server:
+  host: localhost
+  port: 5009
+
+producer:
+  broker: "localhost:9092"
+  protocol:
+  mechanism:
+  username:
+  password:
+  auto.offset.reset: "latest"
+  topic: "rawprocessor"
